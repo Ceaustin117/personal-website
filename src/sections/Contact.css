@@ -1,6 +1,6 @@
 .contact {
   padding: 5rem 0;
-  background: linear-gradient(135deg, #0a1929 0%, #1a2332 100%);
+  background: #0a1929;
   position: relative;
 }
 
@@ -111,9 +111,21 @@
 }
 
 .social-links {
-  display: flex;
-  gap: 1rem;
   margin-top: 2rem;
+}
+
+.social-links h4 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .social-link {
@@ -129,6 +141,9 @@
   text-decoration: none;
   transition: all 0.3s ease;
   backdrop-filter: blur(10px);
+  flex-shrink: 0;
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 
 .social-link:hover {
@@ -231,7 +246,7 @@
     text-align: center;
   }
   
-  .social-links {
+  .social-icons {
     justify-content: center;
   }
 }
@@ -274,5 +289,16 @@
   .form-group input,
   .form-group textarea {
     padding: 0.6rem;
+  }
+  
+  .social-icons {
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .social-link {
+    width: 40px;
+    height: 40px;
+    font-size: 0.7rem;
   }
 } 

@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <div className="footer-content">
           <div className="footer-section">
             <h3>Chris</h3>
-            <p>Full Stack Developer passionate about creating amazing web experiences.</p>
+            <p>Senior Data Engineer with extensive AI/ML and full stack experience. Passionate about creating amazing web experiences.</p>
           </div>
           
           <div className="footer-section">
