@@ -31,6 +31,5 @@ steps:
     output_location: '../build'
     skip_app_build: false
     skip_api_build: true
-    deployment_environment: production
     azure_static_web_apps_api_token: $(DEPLOYMENT_TOKEN)
   displayName: 'Deploy to Azure Static Web Apps' 
