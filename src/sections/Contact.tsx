@@ -74,7 +74,7 @@ const Contact: React.FC = () => {
             <div className="social-links">
               <h4>Connect With Me</h4>
               <div className="social-icons">
-                <a href="https://linkedin.com/in/chris-austin" target="_blank" rel="noopener noreferrer" className="social-link">
+                <a href="https://linkedin.com/in/christopher-austin" target="_blank" rel="noopener noreferrer" className="social-link">
                   <span>LinkedIn</span>
                 </a>
                 <a href="https://github.com/ceaustin117" target="_blank" rel="noopener noreferrer" className="social-link">
