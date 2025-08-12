@@ -45,7 +45,7 @@ const Header: React.FC = () => {
         </nav>
 
         <button 
-          className={`hamburger ${isMenuOpen ? 'hamburger-open' : ''}`}
+          className={`hamburger ${isMenuOpen ? 'active' : ''}`}
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >

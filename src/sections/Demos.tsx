@@ -142,20 +142,20 @@ const Demos: React.FC = () => {
           <h3>Key Achievements</h3>
           <div className="achievements-grid">
             <div className="achievement-item">
-              <span className="achievement-number">800%</span>
+              <span className="achievement-number">800% </span>
               <span className="achievement-text">Reduction in tax document review time</span>
             </div>
             <div className="achievement-item">
-              <span className="achievement-number">15+</span>
+              <span className="achievement-number">15+ </span>
               <span className="achievement-text">Enterprise projects delivered</span>
             </div>
             <div className="achievement-item">
-              <span className="achievement-number">5</span>
+              <span className="achievement-number">5 </span>
               <span className="achievement-text">Companies transformed</span>
             </div>
             <div className="achievement-item">
-              <span className="achievement-number">7+</span>
-              <span className="achievement-text">Years of experience</span>
+              <span className="achievement-number">7+ </span>
+              <span className="achievement-text">Years of professional experience</span>
             </div>
           </div>
         </div>
