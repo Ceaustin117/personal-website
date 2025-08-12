@@ -21,16 +21,7 @@ steps:
   displayName: 'npm install and build'
 
 - script: |
-    echo "Checking DEPLOYMENT_TOKEN variable..."
-    if [ -n "$(DEPLOYMENT_TOKEN)" ]; then
-      echo "DEPLOYMENT_TOKEN is set (length: ${#DEPLOYMENT_TOKEN})"
-      echo "First 10 characters: ${DEPLOYMENT_TOKEN:0:10}..."
-      echo "Last 10 characters: ${DEPLOYMENT_TOKEN: -10}..."
-    else
-      echo "DEPLOYMENT_TOKEN is NOT set"
-    fi
-    echo "Variable name: DEPLOYMENT_TOKEN"
-    echo "Variable value length: ${#DEPLOYMENT_TOKEN}"
+    echo "DEPLOYMENT_TOKEN value: $(DEPLOYMENT_TOKEN)"
   displayName: 'Debug DEPLOYMENT_TOKEN variable'
 
 - task: AzureStaticWebApp@0
