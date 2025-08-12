@@ -16,6 +16,10 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    echo variables.DEPLOYMENT_TOKEN
+  displayName: 'Debug token variable'
+
+- script: |
     npm install
     npm run build
   displayName: 'npm install and build'
