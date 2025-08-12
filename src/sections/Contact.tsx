@@ -77,7 +77,7 @@ const Contact: React.FC = () => {
                 <a href="https://linkedin.com/in/chris-austin" target="_blank" rel="noopener noreferrer" className="social-link">
                   <span>LinkedIn</span>
                 </a>
-                <a href="https://github.com/chris-austin" target="_blank" rel="noopener noreferrer" className="social-link">
+                <a href="https://github.com/ceaustin117" target="_blank" rel="noopener noreferrer" className="social-link">
                   <span>GitHub</span>
                 </a>
               </div>
