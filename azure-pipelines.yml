@@ -21,8 +21,8 @@ steps:
   displayName: 'npm install and build'
 
 - script: |
-    echo "DEPLOYMENT_TOKEN value: $(DEPLOYMENT_TOKEN)"
-  displayName: 'Debug DEPLOYMENT_TOKEN variable'
+    echo "Deployment_Token1 value: $(Deployment_Token1)"
+  displayName: 'Debug Deployment_Token1 variable'
 
 - task: AzureStaticWebApp@0
   inputs:
@@ -32,5 +32,5 @@ steps:
     skip_app_build: false
     skip_api_build: true
     deployment_environment: production
-    azure_static_web_apps_api_token: $(DEPLOYMENT_TOKEN)
+    azure_static_web_apps_api_token: $(Deployment_Token1)
   displayName: 'Deploy to Azure Static Web Apps' 
