@@ -32,5 +32,5 @@ steps:
     skip_app_build: false
     skip_api_build: true
     deployment_environment: production
-    deployment_token: $(DEPLOYMENT_TOKEN)
+    deployment_token: '2354953313626060caaa872e21baf3ab567fe7430cddb2958c290ce2f71e172501-a8fc8cef-e909-4fbe-9047-6f2a716982fc01e220907ce3f71e'
   displayName: 'Deploy to Azure Static Web Apps' 
