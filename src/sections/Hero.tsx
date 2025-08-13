@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
           <p className="hero-description">
             I build intelligent systems that reduce manual work, accelerate insights, and improve decision-making. 
             Specializing in GenAI, ML pipelines, and cloud-native data solutions with extensive full-stack experience 
-            spanning 7+ years.
+            spanning 7+ years...
           </p>
           <div className="hero-buttons">
             <a href="#demos" className="btn">
