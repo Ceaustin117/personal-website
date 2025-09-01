@@ -9,6 +9,7 @@ const Header: React.FC = () => {
     { id: 'home', label: 'Home', href: '#home' },
     { id: 'about', label: 'About', href: '#about' },
     { id: 'demos', label: 'Demos', href: '#demos' },
+    { id: 'dashboard', label: 'Dashboard', href: '#dashboard' },
     { id: 'skills', label: 'Skills', href: '#skills' },
     { id: 'contact', label: 'Contact', href: '#contact' },
   ];

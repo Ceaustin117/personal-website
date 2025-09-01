@@ -140,6 +140,13 @@
   font-weight: 700;
 }
 
+.chat-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  width: 100%;
+}
+
 @media (max-width: 1024px) {
   .hero-container {
     grid-template-columns: 1fr;
@@ -154,6 +161,10 @@
   .profile-image-container {
     width: 250px;
     height: 250px;
+  }
+  
+  .chat-section {
+    margin-top: 2rem;
   }
 }
 
@@ -190,5 +201,9 @@
   
   .profile-placeholder {
     font-size: 2.5rem;
+  }
+  
+  .chat-section {
+    margin-top: 1.5rem;
   }
 } 

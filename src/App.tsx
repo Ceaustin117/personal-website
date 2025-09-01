@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import Demos from './sections/Demos';
+import { Dashboard } from './components/Dashboard';
 import Skills from './sections/Skills';
 import Contact from './sections/Contact';
 import Footer from './components/Footer';
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <About />
         <Demos />
+        <Dashboard />
         <Skills />
         <Contact />
       </main>
