@@ -27,6 +27,14 @@ main {
   margin: 0 auto;
 }
 
+/* Chat Section */
+.chat-section {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 /* Custom Properties for New Color Scheme */
 :root {
   --primary-bg: #0a1929;
@@ -113,5 +121,9 @@ main {
   .btn {
     padding: 10px 20px;
     font-size: 0.9rem;
+  }
+  
+  .chat-section {
+    padding: 1rem 0;
   }
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Chat } from '../components/Chat';
 import './Hero.css';
 
 const Hero: React.FC = () => {
@@ -48,11 +47,6 @@ const Hero: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
-      
-      {/* Chat Section */}
-      <div className="chat-section">
-        <Chat />
       </div>
     </section>
   );
