@@ -79,7 +79,7 @@ const Demos: React.FC = () => {
       );
 
   return (
-    <section id="demos" className="demos">
+    <section id="demos" className="demos" style={{ display: 'none' }}>
       <div className="container">
         <div className="section-header">
           <h2 className="section-title">Featured Projects</h2>

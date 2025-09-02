@@ -145,6 +145,7 @@
   justify-content: center;
   margin-top: 3rem;
   width: 100%;
+  padding: 0 1rem;
 }
 
 @media (max-width: 1024px) {
@@ -205,5 +206,6 @@
   
   .chat-section {
     margin-top: 1.5rem;
+    padding: 0 0.5rem;
   }
 } 

@@ -191,8 +191,10 @@
 /* Responsive design */
 @media (max-width: 768px) {
   .chat-container {
-    margin: 1rem 0;
+    margin: 1rem auto;
     padding: 1rem;
+    max-width: calc(100vw - 2rem);
+    width: 100%;
   }
   
   .chat-messages {
@@ -211,5 +213,25 @@
   .send-button {
     align-self: flex-end;
     width: fit-content;
+  }
+}
+
+@media (max-width: 480px) {
+  .chat-container {
+    margin: 0.5rem auto;
+    padding: 0.75rem;
+    max-width: calc(100vw - 1rem);
+  }
+  
+  .chat-header h3 {
+    font-size: 1.25rem;
+  }
+  
+  .chat-header p {
+    font-size: 0.8rem;
+  }
+  
+  .chat-messages {
+    max-height: 250px;
   }
 }
