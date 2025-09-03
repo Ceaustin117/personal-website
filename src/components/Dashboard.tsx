@@ -11,7 +11,6 @@ export const Dashboard: React.FC = () => {
         </div>
         
         <div className="dashboard-content">
-          {/* Dashboard temporarily disabled
           <div className="dashboard-iframe-container">
             <iframe
               src="https://adb-3416059529708599.19.azuredatabricks.net/embed/dashboardsv3/01f086b285ca1895aabb39b9153f8818?o=3416059529708599"
@@ -21,10 +20,6 @@ export const Dashboard: React.FC = () => {
               title="Analytics Dashboard"
               allowFullScreen
             />
-          </div>
-          */}
-          <div className="dashboard-placeholder">
-            <p>Dashboard coming soon...</p>
           </div>
         </div>
       </div>

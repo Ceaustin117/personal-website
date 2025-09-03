@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Hero from './sections/Hero';
 import { Chat } from './components/Chat';
+import { DataPipelineDiagram } from './components/DataPipelineDiagram';
 import About from './sections/About';
 import Demos from './sections/Demos';
 import { Dashboard } from './components/Dashboard';
@@ -20,6 +21,7 @@ function App() {
           <Chat />
         </section>
         <Dashboard />
+        <DataPipelineDiagram />
         <About />
         <Demos />
         <Skills />

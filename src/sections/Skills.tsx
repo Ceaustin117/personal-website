@@ -14,7 +14,7 @@ const Skills: React.FC = () => {
     { name: 'LangChain', category: 'ai', proficiency: 'advanced' },
     
     // ML Engineering
-    { name: 'Forecasting Models', category: 'ml', proficiency: 'expert' },
+    { name: 'Forecasting Models', category: 'ml', proficiency: 'advanced' },
     { name: 'Classification', category: 'ml', proficiency: 'advanced' },
     { name: 'Model Monitoring', category: 'ml', proficiency: 'advanced' },
     { name: 'ML Pipelines', category: 'ml', proficiency: 'expert' },
@@ -26,16 +26,13 @@ const Skills: React.FC = () => {
     { name: 'AWS', category: 'cloud', proficiency: 'advanced' },
     { name: 'Microsoft Fabric', category: 'cloud', proficiency: 'expert' },
     { name: 'Databricks', category: 'cloud', proficiency: 'advanced' },
-    { name: 'Terraform', category: 'cloud', proficiency: 'advanced' },
     
     // Programming & Tools
     { name: 'Python', category: 'tools', proficiency: 'expert' },
     { name: 'Spark/PySpark', category: 'tools', proficiency: 'expert' },
     { name: 'SQL', category: 'tools', proficiency: 'expert' },
     { name: 'Git', category: 'tools', proficiency: 'advanced' },
-    { name: 'CI/CD', category: 'tools', proficiency: 'advanced' },
-    { name: 'Streamlit', category: 'tools', proficiency: 'advanced' },
-    { name: 'Power BI', category: 'tools', proficiency: 'advanced' }
+    { name: 'CI/CD', category: 'tools', proficiency: 'advanced' }
   ];
 
   const categories = [
@@ -54,6 +51,7 @@ const Skills: React.FC = () => {
     switch (proficiency) {
       case 'expert': return '#28a745';
       case 'advanced': return '#17a2b8';
+      case 'proficient': return '#6f42c1';
       case 'intermediate': return '#ffc107';
       case 'beginner': return '#dc3545';
       default: return '#6c757d';
@@ -64,6 +62,7 @@ const Skills: React.FC = () => {
     switch (proficiency) {
       case 'expert': return '95%';
       case 'advanced': return '85%';
+      case 'proficient': return '75%';
       case 'intermediate': return '70%';
       case 'beginner': return '50%';
       default: return '60%';
