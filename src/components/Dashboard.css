@@ -34,6 +34,13 @@
   line-height: 1.6;
 }
 
+.dashboard-login-note {
+  font-size: 0.95rem !important;
+  color: var(--accent-cyan) !important;
+  margin-top: 0.5rem !important;
+  font-style: italic;
+}
+
 .dashboard-content {
   background: rgba(26, 35, 50, 0.8);
   border: 1px solid rgba(148, 163, 184, 0.3);

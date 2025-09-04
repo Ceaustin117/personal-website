@@ -8,6 +8,9 @@ export const Dashboard: React.FC = () => {
         <div className="dashboard-header">
           <h2>Analytics Dashboard</h2>
           <p>Real-time insights and metrics from my data projects</p>
+          <p className="dashboard-login-note">
+            <em>Please log in to Databricks to view the interactive dashboard</em>
+          </p>
         </div>
         
         <div className="dashboard-content">
