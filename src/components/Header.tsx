@@ -8,8 +8,6 @@ const Header: React.FC = () => {
   const navItems: NavItem[] = [
     { id: 'home', label: 'Home', href: '#home' },
     { id: 'about', label: 'About', href: '#about' },
-    // { id: 'demos', label: 'Demos', href: '#demos' }, // Hidden for now
-    { id: 'dashboard', label: 'Dashboard', href: '#dashboard' },
     { id: 'skills', label: 'Skills', href: '#skills' },
     { id: 'contact', label: 'Contact', href: '#contact' },
   ];

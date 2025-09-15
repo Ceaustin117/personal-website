@@ -140,14 +140,14 @@ export const Chat: React.FC = () => {
   return (
     <div className="chat-container">
       <div className="chat-header">
-        <h3>Chat with Genie</h3>
-        <p>Ask me anything about the data I have access to!</p>
+        <h3>Interactive Chat</h3>
+        <p>Ask me anything about my work, skills, or projects!</p>
       </div>
       
       <div className="chat-messages">
         {messages.length === 0 && (
           <div className="chat-placeholder">
-            <p>👋 Hi! I'm Genie. I have access to Chris's demo data and can answer questions about it!</p>
+            <p>👋 Hi! I'm here to help answer questions about my work, skills, and projects. Feel free to ask me anything!</p>
           </div>
         )}
         

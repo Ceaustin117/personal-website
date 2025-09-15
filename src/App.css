@@ -108,6 +108,13 @@ main {
   color: var(--accent-cyan);
 }
 
+/* Hide Viking-specific components */
+.chat-section,
+.dashboard,
+.pipeline-diagram {
+  display: none !important;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .section-header h2 {

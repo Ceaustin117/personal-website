@@ -66,8 +66,7 @@ const Demos: React.FC = () => {
     { id: 'all', label: 'All Projects' },
     { id: 'ai', label: 'AI & GenAI' },
     { id: 'analytics', label: 'Analytics' },
-    { id: 'ml', label: 'ML Engineering' },
-    { id: 'cloud', label: 'Cloud Solutions' }
+    { id: 'ml', label: 'ML Engineering' }
   ];
 
   const filteredProjects = activeFilter === 'all' 
@@ -79,7 +78,7 @@ const Demos: React.FC = () => {
       );
 
   return (
-    <section id="demos" className="demos" style={{ display: 'none' }}>
+    <section id="demos" className="demos">
       <div className="container">
         <div className="section-header">
           <h2 className="section-title">Featured Projects</h2>
